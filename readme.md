@@ -6,13 +6,12 @@ Created by Daniel Deutsch (<kbd>
 </kbd>)
 
 ## FreeCodeCamp Data Visualization Projects:
-# Visualize GDP With  A Bar Chart
+# Visualize Data With A Scatterplot Graph
 
-## Watch it on <a href="https://ddcs-gdpbarchart.herokuapp.com/" target="_blank">Heroku</a>:
-<a href="https://ddcs-gdpbarchart.herokuapp.com/" target="_blank">https://ddcs-gdpbarchart.herokuapp.com/</a>
+## Watch it on Heroku:
+<a href="https://ddcs-scatterplotgraph.herokuapp.com/" target="_blank">https://ddcs-scatterplotgraph.herokuapp.com/</a>
 
 
 ## User stories:
-- I can see the Austrian Gross Domestic Product by year over time.
-
-- I can mouse over a bar and see a tooltip with the GDP amount and exact year and month that bar represents.
+- I can see performance time visualized in a scatterplot graph.
+- I can mouse over a plot to see a tooltip with additional details.
