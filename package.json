@@ -1,0 +1,7 @@
+{
+  "name": "ScatterplotGraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Deutsch <deudan1010@gmail.com>",
+  "license": "MIT"
+}
