@@ -82,7 +82,11 @@
 
 	var _FooterC2 = _interopRequireDefault(_FooterC);
 
-	var _d = __webpack_require__(247);
+	var _ChartC = __webpack_require__(247);
+
+	var _ChartC2 = _interopRequireDefault(_ChartC);
+
+	var _d = __webpack_require__(248);
 
 	var d3 = _interopRequireWildcard(_d);
 
@@ -104,7 +108,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'container valign-wrapper' },
-	        _react2.default.createElement('div', { className: 'container valign', id: 'chart' }),
+	        _react2.default.createElement(_ChartC2.default, null),
 	        'Working fine :)'
 	      );
 	    }
@@ -21519,6 +21523,76 @@
 
 /***/ },
 /* 247 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _getPrototypeOf = __webpack_require__(1);
+
+	var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+	var _classCallCheck2 = __webpack_require__(27);
+
+	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+	var _createClass2 = __webpack_require__(28);
+
+	var _createClass3 = _interopRequireDefault(_createClass2);
+
+	var _possibleConstructorReturn2 = __webpack_require__(32);
+
+	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+	var _inherits2 = __webpack_require__(79);
+
+	var _inherits3 = _interopRequireDefault(_inherits2);
+
+	var _react = __webpack_require__(87);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _d = __webpack_require__(248);
+
+	var d3 = _interopRequireWildcard(_d);
+
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Chart = function (_React$Component) {
+	  (0, _inherits3.default)(Chart, _React$Component);
+
+	  function Chart() {
+	    (0, _classCallCheck3.default)(this, Chart);
+	    return (0, _possibleConstructorReturn3.default)(this, (Chart.__proto__ || (0, _getPrototypeOf2.default)(Chart)).apply(this, arguments));
+	  }
+
+	  (0, _createClass3.default)(Chart, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      var chartContainerObj = d3.select('#chart');
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'container valign-wrapper' },
+	        _react2.default.createElement('div', { className: 'container valign', id: 'chart' })
+	      );
+	    }
+	  }]);
+	  return Chart;
+	}(_react2.default.Component);
+
+	exports.default = Chart;
+
+/***/ },
+/* 248 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// https://d3js.org Version 4.4.0. Copyright 2016 Mike Bostock.
